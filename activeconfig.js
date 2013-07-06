@@ -3,7 +3,7 @@ var app = express();
 app.use(express.logger());
 
 app.get('/active_config', function(request, response) {
-	var user_id = request.query.userID || 0
+	var user_id = int(request.query.userID)
 
 	response.send({
 		meta: {
@@ -15,9 +15,9 @@ app.get('/active_config', function(request, response) {
 				settings: {
 					ViewBackgroundColor: {
 						value: {
-							red: Math.sin(45 / user_id) / user_id,
-							green: Math.cos(30) / user_id,
-							blue: 1 / user_id,
+							red: user_id ? Math.sin(45 / user_id) / user_id : 0
+							green: user_id ? Math.cos(30) / user_id : 0,
+							blue: user_id ? 1 / user_id : 0,
 						}
 					},
 					LabelText: {
