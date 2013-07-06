@@ -1,7 +1,7 @@
-ActiveConfig-SampleNodeHerokuBackend
+ActiveConfig-SampleNodeBackend
 ====================================
 
-Sample ActiveConfig backend that runs on Heroku.
+Sample ActiveConfig backend that runs on Heroku (http://msactiveconfig-sampleapp.herokuapp.com/active_config)
 
 ## Description
 This node.js app is just an example of how easy it is to create a backend for [MSActiveConfig](https://github.com/mindsnacks/MSActiveConfig).
