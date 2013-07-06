@@ -3,7 +3,7 @@ var app = express();
 app.use(express.logger());
 
 app.get('/active_config', function(request, response) {
-	var user_id = int(request.query.userID)
+	var user_id = parseInt(request.query.userID)
 
 	response.send({
 		meta: {
