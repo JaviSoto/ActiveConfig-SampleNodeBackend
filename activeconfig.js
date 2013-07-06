@@ -15,7 +15,7 @@ app.get('/active_config', function(request, response) {
 				settings: {
 					ViewBackgroundColor: {
 						value: {
-							red: user_id ? Math.sin(45 / user_id) / user_id : 0
+							red: user_id ? Math.sin(45 / user_id) / user_id : 0,
 							green: user_id ? Math.cos(30) / user_id : 0,
 							blue: user_id ? 1 / user_id : 0,
 						}
