@@ -36,4 +36,4 @@ This particular implementation sends a response with a JSON that looks like this
 }
 ```
 
-## To see in action, download the repo at https://github.com/mindsnacks/MSActiveConfig and check out the sample app.
+### To see in action, download the repo at https://github.com/mindsnacks/MSActiveConfig and check out the sample app.
