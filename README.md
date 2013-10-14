@@ -37,3 +37,7 @@ This particular implementation sends a response with a JSON that looks like this
 ```
 
 ### To see in action, download the repo at https://github.com/mindsnacks/MSActiveConfig and check out the sample app.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/JaviSoto/activeconfig-samplenodebackend/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
